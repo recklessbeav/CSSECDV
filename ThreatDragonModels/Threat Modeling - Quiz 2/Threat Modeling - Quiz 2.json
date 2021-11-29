@@ -117,113 +117,6 @@
               }
             },
             {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 676,
-                "y": 50
-              },
-              "angle": 0,
-              "id": "e8bf6d7c-2e14-471a-bdc9-809f17e56b5b",
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "LDAP"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "ad930b84-9da3-4481-9482-6e6280c5a975"
-              },
-              "target": {
-                "id": "e8bf6d7c-2e14-471a-bdc9-809f17e56b5b"
-              },
-              "vertices": [
-                {
-                  "x": 537,
-                  "y": 69
-                }
-              ],
-              "id": "884effb0-a426-4d29-b5e3-299148941a96",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.46315309572924224,
-                    "offset": -0.18148251062318022
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "Verifies the Privilege",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 7,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "e8bf6d7c-2e14-471a-bdc9-809f17e56b5b"
-              },
-              "target": {
-                "id": "ad930b84-9da3-4481-9482-6e6280c5a975"
-              },
-              "vertices": [
-                {
-                  "x": 536,
-                  "y": 147
-                }
-              ],
-              "id": "dba256ea-5506-4b72-bac7-9adb3596db81",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "Verified",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 8,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
@@ -615,12 +508,122 @@
               "id": "07bb2789-31e3-4aef-93c0-76593730a551",
               "z": 19,
               "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 701,
+                "y": 73
+              },
+              "angle": 0,
+              "id": "b06d5741-3207-4133-9ee5-efae84462b60",
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "LDAP"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ad930b84-9da3-4481-9482-6e6280c5a975"
+              },
+              "target": {
+                "id": "b06d5741-3207-4133-9ee5-efae84462b60"
+              },
+              "vertices": [
+                {
+                  "x": 575,
+                  "y": 53
+                }
+              ],
+              "id": "3ce3c162-b805-4882-ae12-a8af7427b509",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.31540427252131453,
+                    "offset": -0.2573528739609093
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Verifies the Privilege",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "b06d5741-3207-4133-9ee5-efae84462b60"
+              },
+              "target": {
+                "id": "ad930b84-9da3-4481-9482-6e6280c5a975"
+              },
+              "vertices": [
+                {
+                  "x": 571,
+                  "y": 132
+                }
+              ],
+              "id": "916bb9f4-7c71-4e6c-be77-e6e74d54496b",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.7032640270141103,
+                    "offset": -1.1272010904555634
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Verified",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 804
+          "width": 880
         }
       }
     ]
